@@ -9,7 +9,6 @@ Program to determine score status
 def main():
     """Score status program"""
     score = float(input("Enter score: "))
-    print(determine_score_status(score))
 
 
 def determine_score_status(score):
@@ -24,6 +23,3 @@ def determine_score_status(score):
         print("Bad")
     else:
         print("Invalid score")
-
-
-main()
