@@ -3,7 +3,7 @@ CP1404/CP5632 - Practical
 Program to determine score status
 """
 
-import random
+# TODO: Fix this!
 
 
 def main():
@@ -15,15 +15,15 @@ def main():
 def determine_score_status(score):
     """Determine the status of the score"""
     if score > 100:
-        return "Invalid score"
+        print("Invalid score")
     elif score >= 90:
-        return "Excellent"
+        print("Excellent")
     elif score >= 50:
-        return "Passable"
+        print("Passable")
     elif score < 50:
-        return "Bad"
+        print("Bad")
     else:
-        return "Invalid score"
+        print("Invalid score")
 
 
 main()
