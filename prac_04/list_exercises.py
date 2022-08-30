@@ -15,9 +15,4 @@ usernames = ['jimbo', 'giltson98', 'derekf', 'WhatSup', 'NicolEye', 'swei45',
              'InterpreterInterface', 'StartServer', 'bob']
 
 username = input("Enter your username here: ")
-if username in usernames:
-    print("Access Granted")
-else:
-    print("Access Denied")
-
 
