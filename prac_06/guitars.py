@@ -3,6 +3,7 @@ CURRENT_YEAR = 2022
 
 
 def main():
+    """Program using guitar class"""
     guitars = []
     print("My Guitars!")
     name = input("Name: ")

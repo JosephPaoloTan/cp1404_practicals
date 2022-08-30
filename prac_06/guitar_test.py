@@ -3,6 +3,7 @@ CURRENT_YEAR = 2022
 
 
 def main():
+    """Test code for guitar class"""
     name = "Gibson L-5 CES"
     year = 1922
     cost = 16035.40
