@@ -14,7 +14,7 @@ def main():
 
     print("Car {}, {}".format(my_car.fuel, my_car.odometer))
     print("Car {self.fuel}, {self.odometer}".format(self=my_car))
-
+    my_car.__str__()
     limo = Car('limo', 100)
     limo.add_fuel(20)
     print("fuel =", limo.fuel)
